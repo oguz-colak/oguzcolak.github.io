@@ -1,8 +1,16 @@
 {% if site.active_lang == "en" %}
-  {% assign other_lang_url = page.url | remove_first: '/en' %}
-  {% if other_lang_url == '' %}{% assign other_lang_url = '/' %}{% endif %}
-  <a href="{{ other_lang_url }}" hreflang="tr" aria-label="Türkçeye geç" class="lang-switcher__link">TR</a>
+<a href="/" id="lang-switch-link" hreflang="tr" aria-label="Türkçeye geç" class="lang-switcher__link">TR</a>
+<script>
+  (function() {
+    var path = window.location.pathname.replace(/^\/en\b/, '') || '/';
+    document.getElementById('lang-switch-link').href = path;
+  })();
+</script>
 {% else %}
-  {% assign other_lang_url = '/en' | append: page.url %}
-  <a href="{{ other_lang_url }}" hreflang="en" aria-label="Switch to English" class="lang-switcher__link">EN</a>
+<a href="/en/" id="lang-switch-link" hreflang="en" aria-label="Switch to English" class="lang-switcher__link">EN</a>
+<script>
+  (function() {
+    document.getElementById('lang-switch-link').href = '/en' + window.location.pathname;
+  })();
+</script>
 {% endif %}

@@ -7,9 +7,9 @@
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
           <li class="masthead__menu-item masthead__menu-item--lg persist">
-            <a href="{{ base_path }}/">
+            <a href="{{ base_path }}{% if site.active_lang == 'en' %}/en{% endif %}/">
               Oğuz Çolak<br/>
-              <span class="masthead__subtitle">Kütüphaneci</span>
+              <span class="masthead__subtitle">{% if site.active_lang == "en" %}Librarian{% else %}Kütüphaneci{% endif %}</span>
             </a>
           </li>
           {% if site.active_lang == "en" %}
@@ -24,7 +24,7 @@
               {% assign domain = base_path %}
             {% endif %}
             <li class="masthead__menu-item">
-              {% if link.url == '/contact/' %}
+              {% if link.url contains 'contact' %}
                 <a href="{{ domain }}{{ link.url }}" x-on:click.prevent="$dispatch('open-contact-modal')">{{ link.title }}</a>
               {% else %}
                 <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>

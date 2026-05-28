@@ -25,13 +25,13 @@ main:
 
 main_en:
   - title: "Publications"
-    url: /publications/
+    url: /en/publications/
 
   - title: "Blog Posts"
-    url: /year-archive/
+    url: /en/year-archive/
 
   - title: "CV"
-    url: /cv/
+    url: /en/cv/
 
   - title: "Contact"
-    url: /contact/
+    url: /en/contact/
