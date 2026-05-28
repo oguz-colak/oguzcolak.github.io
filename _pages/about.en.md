@@ -5,7 +5,7 @@ lang: en
 author_profile: true
 ---
 
-<p>I am Oğuz Çolak, a librarian at Istanbul Rami Library. My academic and professional work focuses on the technological transformation of knowledge and information management, the sustainability of digital data, and the discoverability of information.</p>
+<p>I am Oğuz /oˈɣuz/, a librarian at Istanbul Rami Library. My academic and professional work focuses on the technological transformation of knowledge and information management, the sustainability of digital data, and the discoverability of information.</p>
 
 <h2>Research Interests</h2>
 
