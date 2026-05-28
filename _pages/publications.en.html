@@ -1,20 +1,18 @@
 ---
 layout: archive
-title: "Yayınlarım"
-permalink: /yayinlarim/
-lang: tr
+title: "Publications"
+permalink: /publications/
+lang: en
 author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-<div class="wordwrap">Ayrıca <a href="{{site.author.googlescholar}}">Google Akademik profilimi</a> de ziyaret
-  edebilirsiniz.</div>
+<div class="wordwrap">You can also find my work on <a href="{{site.author.googlescholar}}">Google Scholar</a>.</div>
 {% endif %}
 
 {% include base_path %}
 
-{% assign publications_by_year = site.publications | sort: "date" | reverse | group_by_exp: "item", "item.date | date:
-'%Y'" %}
+{% assign publications_by_year = site.publications | sort: "date" | reverse | group_by_exp: "item", "item.date | date: '%Y'" %}
 
 {% for year in publications_by_year %}
 <h2 id="{{ year.name }}" class="archive__subtitle">{{ year.name }}</h2>

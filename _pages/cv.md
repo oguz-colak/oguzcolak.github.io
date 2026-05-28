@@ -2,6 +2,7 @@
 layout: single
 title: "Özgeçmiş"
 permalink: /cv/
+lang: tr
 author_profile: true
 redirect_from:
   - /resume

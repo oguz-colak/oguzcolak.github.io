@@ -3,6 +3,7 @@ title: "Çankırı Karatekin Üniversitesi Bilgi ve Belge Yönetimi Bölümü Y�
 collection: publications
 category: manuscripts
 permalink: /publication/karatekin-bby-tez-atif-analizi
+lang: tr
 excerpt: "Çankırı Karatekin Üniversitesi Bilgi ve Belge Yönetimi Bölümü'nde hazırlanan yüksek lisans tezlerinin atıf özelliklerinin incelenmesi."
 date: 2022-06-30
 venue: "Türk Kütüphaneciliği"

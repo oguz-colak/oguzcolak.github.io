@@ -12,7 +12,12 @@
               <span class="masthead__subtitle">Kütüphaneci</span>
             </a>
           </li>
-          {% for link in site.data.navigation.main %}
+          {% if site.active_lang == "en" %}
+            {% assign nav_links = site.data.navigation.main_en %}
+          {% else %}
+            {% assign nav_links = site.data.navigation.main %}
+          {% endif %}
+          {% for link in nav_links %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
             {% else %}
@@ -26,6 +31,9 @@
               {% endif %}
             </li>
           {% endfor %}
+          <li class="masthead__menu-item persist tail" style="font-size: 0.85em; font-weight: bold; letter-spacing: 0.05em;">
+            {% include lang-switcher.html %}
+          </li>
           <li id="theme-toggle" class="masthead__menu-item persist tail">
             <a role="button" aria-labelledby="theme-icon"><i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i></a>
           </li>

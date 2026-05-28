@@ -10,10 +10,10 @@
 main:
   - title: "Yayınlarım"
     url: /yayinlarim/
-        
+
   - title: "Blog Yazıları"
     url: /year-archive/
-    
+
   - title: "Özgeçmiş"
     url: /cv/
 
@@ -22,3 +22,16 @@ main:
 
   # - title: "CV"
   #   url: /cv-json/
+
+main_en:
+  - title: "Publications"
+    url: /publications/
+
+  - title: "Blog Posts"
+    url: /year-archive/
+
+  - title: "CV"
+    url: /cv/
+
+  - title: "Contact"
+    url: /contact/

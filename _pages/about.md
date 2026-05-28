@@ -1,8 +1,9 @@
 ---
 permalink: /
 title: "Hoş Geldiniz"
+lang: tr
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---

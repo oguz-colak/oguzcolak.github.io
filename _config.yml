@@ -7,7 +7,7 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "en-US"
+locale                   : "tr"
 site_theme               : "default"
 title                    : "Oğuz Çolak"
 title_separator          : "-"
@@ -287,8 +287,15 @@ permalink: /:categories/:title/
 timezone: Etc/UTC # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
+# Polyglot (bilingual TR/EN)
+languages: ["tr", "en"]
+default_lang: "tr"
+exclude_from_localization: ["assets", "images", "files", "scripts", "feed.xml", "sitemap.xml"]
+parallel_localization: false
+
 # Plugins
 plugins:
+  - jekyll-polyglot
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
@@ -298,6 +305,7 @@ plugins:
 
 # Mimic GitHub Pages with --safe
 whitelist:
+  - jekyll-polyglot
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate

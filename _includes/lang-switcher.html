@@ -1,0 +1,8 @@
+{% if site.active_lang == "en" %}
+  {% assign other_lang_url = page.url | remove_first: '/en' %}
+  {% if other_lang_url == '' %}{% assign other_lang_url = '/' %}{% endif %}
+  <a href="{{ other_lang_url }}" hreflang="tr" aria-label="Türkçeye geç" class="lang-switcher__link">TR</a>
+{% else %}
+  {% assign other_lang_url = '/en' | append: page.url %}
+  <a href="{{ other_lang_url }}" hreflang="en" aria-label="Switch to English" class="lang-switcher__link">EN</a>
+{% endif %}

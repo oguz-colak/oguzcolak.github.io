@@ -3,6 +3,7 @@ title: "Improving Data Literacy Competencies of Librarians: A Study in the Conte
 collection: publications
 category: conferences
 permalink: /publication/unak-24-data-literacy
+lang: tr
 date: 2024-09-12
 venue: "The Role of Academic Libraries and Innovative Services in the Scholarly Communication Ecosystem, ÜNAK ’24 Symposium Proceeding"
 authors: ["Oğuz Çolak"]

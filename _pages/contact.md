@@ -2,6 +2,7 @@
 layout: single
 title: "Bana Ulaşın"
 permalink: /contact/
+lang: tr
 author_profile: true
 ---
 

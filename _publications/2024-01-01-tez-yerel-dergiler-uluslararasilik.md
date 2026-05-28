@@ -3,6 +3,7 @@ title: "Yerel Bilimsel Dergilerin Uluslararasılığının Ölçülmesi"
 collection: publications
 category: theses
 permalink: /publication/tez-yerel-dergiler-uluslararasilik
+lang: tr
 excerpt: "Çankırı Karatekin Üniversitesi Sosyal Bilimler Enstitüsü'nde tamamlanan yüksek lisans tezi."
 date: 2024-01-01
 venue: "Yüksek Lisans Tezi"

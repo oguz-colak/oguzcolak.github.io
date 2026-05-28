@@ -3,6 +3,7 @@ title: "Sci-Hub Verileri ve Türkiye Bilimsel Çıktıları (Çalışma Devam Ed
 collection: publications
 category: conferences
 permalink: /publication/sci-hub-turkiye-analizi
+lang: tr
 excerpt: "Türkiye'nin bilimsel yayın üretiminin Sci-Hub üzerindeki erişim oranları ve indirme istatistiklerinin analizi."
 date: 2026-04-09
 venue: "Çalışma Devam Ediyor"
