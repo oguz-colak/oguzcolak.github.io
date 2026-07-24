@@ -133,6 +133,23 @@ author_profile: true
   </ul>
 </div>
 
+<div class="cv-section">
+  <div class="cv-section-title">
+    <i class="fa fa-star"></i> Other Activities
+  </div>
+
+  <div class="cv-item">
+    <div class="cv-date">April 2026 – February 2027</div>
+    <div class="cv-content">
+      <div class="cv-title">Member, IFLA Metropolitan Libraries Section (MetLib) Learning Circle — Class of 2026–2027</div>
+      <div class="cv-institution">International Federation of Library Associations and Institutions (IFLA)</div>
+      <div class="cv-details">
+        Monthly meetings focused on how public libraries can strengthen social connection and community wellbeing in urban life, and attending the MetLib Conference 2026 in Utrecht, Netherlands (25–28 October 2026).
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="cv-cta-section">
   <p>For a full list of my academic works and publications, please visit the Publications page.</p>
   <a href="/en/publications/" class="btn--cv-publications">

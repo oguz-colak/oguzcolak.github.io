@@ -133,6 +133,23 @@ redirect_from:
   </ul>
 </div>
 
+<div class="cv-section">
+  <div class="cv-section-title">
+    <i class="fa fa-star"></i> Diğer Aktiviteler
+  </div>
+
+  <div class="cv-item">
+    <div class="cv-date">Nisan 2026 – Şubat 2027</div>
+    <div class="cv-content">
+      <div class="cv-title">IFLA Metropolitan Libraries Section (MetLib) Learning Circle Üyesi — Class of 2026–2027</div>
+      <div class="cv-institution">International Federation of Library Associations and Institutions (IFLA)</div>
+      <div class="cv-details">
+        Kentsel yaşamda kamu kütüphanelerinin sosyal bağları ve topluluk refahını güçlendirme odaklı aylık çalışmalar ve 25–28 Ekim 2026'da Utrecht, Hollanda'da düzenlenecek MetLib Conference 2026'ya katılım.
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="cv-cta-section">
   <p>Akademik çalışmalarımın ve yayınlarımın tam listesi için lütfen Yayınlar sayfasını ziyaret edin.</p>
   <a href="/publications/" class="btn--cv-publications">
