@@ -16,6 +16,14 @@ redirect_from:
   </div>
 
   <div class="cv-item">
+    <div class="cv-date">Eylül 2026 - Devam Ediyor</div>
+    <div class="cv-content">
+      <div class="cv-title">Doktora, Bilgi ve Belge Yönetimi</div>
+      <div class="cv-institution">İstanbul Üniversitesi</div>
+    </div>
+  </div>
+
+  <div class="cv-item">
     <div class="cv-date">Eylül 2021 - Nisan 2024</div>
     <div class="cv-content">
       <div class="cv-title">Yüksek Lisans, Bilgi ve Belge Yönetimi</div>

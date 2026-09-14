@@ -14,6 +14,14 @@ author_profile: true
   </div>
 
   <div class="cv-item">
+    <div class="cv-date">September 2026 – Present</div>
+    <div class="cv-content">
+      <div class="cv-title">PhD, Information and Records Management</div>
+      <div class="cv-institution">Istanbul University</div>
+    </div>
+  </div>
+
+  <div class="cv-item">
     <div class="cv-date">September 2021 – April 2024</div>
     <div class="cv-content">
       <div class="cv-title">Master's Degree, Information and Records Management</div>
